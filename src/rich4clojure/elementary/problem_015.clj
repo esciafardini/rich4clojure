@@ -4,14 +4,10 @@
 ;; = Double Down =
 ;; By 4Clojure user: dbyrne
 ;; Difficulty: Elementary
-;; 
+;;
 ;; Write a function which doubles a number.
 
-(def __ :tests-will-fail)
-
-(comment
-  
-  )
+(def __ (fn [x] (* 2 x)))
 
 (tests
   (__ 2) := 4

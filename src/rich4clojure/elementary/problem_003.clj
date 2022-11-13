@@ -4,16 +4,12 @@
 ;; = Intro to Strings =
 ;; By 4Clojure user: dbyrne
 ;; Difficulty: Elementary
-;; 
+;;
 ;; Clojure strings are Java strings. This means that you
 ;; can use any of the Java string methods on Clojure
 ;; strings.
 
-(def __ :tests-will-fail)
-
-(comment
-  
-  )
+(def __ "HELLO WORLD")
 
 (tests
   __ := (.toUpperCase "hello world"))

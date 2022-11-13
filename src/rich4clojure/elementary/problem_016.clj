@@ -4,14 +4,10 @@
 ;; = Hello World =
 ;; By 4Clojure user: dbyrne
 ;; Difficulty: Elementary
-;; 
+;;
 ;; Write a function which returns a personalized greeting.
 
-(def __ :tests-will-fail)
-
-(comment
-  
-  )
+(def __ (fn [name-string] (format "Hello, %s!" name-string)))
 
 (tests
   (__ "Dave") := "Hello, Dave!"

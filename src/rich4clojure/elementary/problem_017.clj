@@ -4,17 +4,17 @@
 ;; = Sequences: map =
 ;; By 4Clojure user: dbyrne
 ;; Difficulty: Elementary
-;; 
+;;
 ;; The map function takes two arguments: a function (f)
 ;; and a sequence (s). Map returns a new sequence
 ;; consisting of the result of applying f to each item of
 ;; s. Do not confuse the map function with the map data
 ;; structure.
 
-(def __ :tests-will-fail)
+(def __ (range 6 9))
 
 (comment
-  
+
   )
 
 (tests

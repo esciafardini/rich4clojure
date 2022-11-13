@@ -4,16 +4,12 @@
 ;; = Intro to Sequences =
 ;; By 4Clojure user: dbyrne
 ;; Difficulty: Elementary
-;; 
+;;
 ;; All Clojure collections support sequencing. You can
 ;; operate on sequences with functions like first, second,
 ;; and last.
 
-(def __ :tests-will-fail)
-
-(comment
-  
-  )
+(def __ 3)
 
 (tests
   __ := (first '(3 2 1))

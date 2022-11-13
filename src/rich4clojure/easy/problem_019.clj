@@ -5,16 +5,25 @@
 ;; By 4Clojure user: dbyrne
 ;; Difficulty: Easy
 ;; Tags: [seqs core-functions]
-;; 
+;;
 ;; Write a function which returns the last element in a
 ;; sequence.
 
 (def restricted [last])
 
-(def __ :tests-will-fail)
+(def __
+  (fn [coll]
+    (-> coll
+        reverse
+        first)))
+
+(def __
+  (fn [coll]
+    (reduce (fn [_ b] b) coll)))
+
 
 (comment
-  
+
   )
 
 (tests

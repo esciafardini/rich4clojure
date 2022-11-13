@@ -4,16 +4,12 @@
 ;; = Vectors: conj =
 ;; By 4Clojure user: dbyrne
 ;; Difficulty: Elementary
-;; 
+;;
 ;; When operating on a Vector, the conj function will
 ;; return a new vector with one or more items "added" to
 ;; the end.
 
-(def __ :tests-will-fail)
-
-(comment
-  
-  )
+(def __ [1 2 3 4])
 
 (tests
   __ := (conj [1 2 3] 4)

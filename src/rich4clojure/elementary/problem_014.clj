@@ -4,14 +4,10 @@
 ;; = Intro to Functions =
 ;; By 4Clojure user: dbyrne
 ;; Difficulty: Elementary
-;; 
+;;
 ;; Clojure has many different ways to create functions.
 
-(def __ :tests-will-fail)
-
-(comment
-  
-  )
+(def __ ((comp inc dec (partial + 5)) 3))
 
 (tests
   __ := ((fn add-five [x] (+ x 5)) 3)

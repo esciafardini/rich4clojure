@@ -4,15 +4,11 @@
 ;; = Maps: conj =
 ;; By 4Clojure user: dbyrne
 ;; Difficulty: Elementary
-;; 
+;;
 ;; When operating on a map, the conj function returns a
 ;; new map with one or more key-value pairs "added".
 
-(def __ :tests-will-fail)
-
-(comment
-  
-  )
+(def __ [:b 2])
 
 (tests
   {:a 1, :b 2, :c 3} := (conj {:a 1} __ [:c 3]))

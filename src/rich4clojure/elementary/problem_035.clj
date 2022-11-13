@@ -5,15 +5,11 @@
 ;; By 4Clojure user: amalloy
 ;; Difficulty: Elementary
 ;; Tags: [syntax]
-;; 
+;;
 ;; Clojure lets you give local names to values using the
 ;; special let-form.
 
-(def __ :tests-will-fail)
-
-(comment
-  
-  )
+(def __ 7)
 
 (tests
   __ := (let [x 5] (+ 2 x))
